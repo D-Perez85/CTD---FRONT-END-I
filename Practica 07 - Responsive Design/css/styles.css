@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ :root {
+    --color-white: #ffff;
+    --color-white-btn: #F3F3F3;
+    --bg-white: #f8f2f2;
+    --bg-blue: #00669F;
+    --bg-mustard: #D1891C;
+}
+body {
+     margin: 0 auto;
+}
+header {
+    width: 94%;
+    margin: 20px auto;
+}
+h1,
+h2 {
+    margin: 0 auto;
+    font-weight: 400;
+}
+h1,
+footer {
+    background-color: var(--bg-blue);
+    color: var(--color-white);
+}
+h1 {
+    box-shadow: 0 0.62rem 0.43rem rgba(0, 0, 0, 0.25);
+    font-size: 1.7rem;
+    height: 4.5rem;
+    padding: 0.8rem 0rem 1.5rem 1.7rem;
+}
+h2 {
+    background-color: var(--bg-mustard);
+    font-size: 0.8rem;
+    height: 1.4rem;
+    padding-left: 1.2rem;
+    padding-top: 0.2rem;
+}
+main {
+    width: 100%;
+}
+.container__hero {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    margin: 0.93rem auto;
+    text-align: center;
+    width: 14.06rem;
+}
+.hero__bg__img {
+    background-image: url('../img/bgbatman.png');
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    width: 100%;
+}
+#hero__img {
+    border-radius: 50%;
+    position: relative;
+    top: -5rem;
+    left: -0.625rem;
+    width: 6.25rem;
+}
+#corazon {
+    position: relative;
+    top: -13.125rem;
+    left: -2.187rem;
+    width: 1.5rem;
+}
+h4 {
+    font-size: 1.3rem;
+    margin-top: -73px;
+}
+p {
+    font-size: 0.687rem;
+    letter-spacing: 0.5px;
+    margin-top: 0.37rem;
+    padding: 0rem 0rem 1rem 0.312rem;
+    text-align: left;
+    width: 95%;
+}
+button {
+    background-color: var(--bg-blue);
+    border: none;
+    color: var(--color-white-btn);
+    font-size: 0.8rem;
+    font-weight: 400;
+    height: 2rem;
+    margin-bottom: 0.9375rem;
+    width: 6rem;
+}
+.hero__hquinn {
+    display: none;
+}
+footer {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 94%;
+}
+
+
+@media (min-width: 421px) {
+    body {
+        width: 45rem;
+        overflow-x: hidden;
+    }
+    #corazon{
+        top: -16.25rem;
+        left: -3.312rem;
+    }
+    header {
+        width: 98%;
+    }
+    h1 {
+        height: 5rem;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    h2 {
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container__hero {
+        width: 17.5rem;
+    }
+    #hero__img {
+        top: -6.562rem;
+        width: 7.5rem;
+    }
+    .header-img {
+        top: -13.75;
+    }
+    #corazon {
+        width: 1.6rem;
+    }
+    h4 {
+        font-size: 1.312rem;
+        margin-top: -6.062rem   ;
+    }
+    p {
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        margin-top: 0.5rem;
+    }
+    button {
+        width: 6rem;
+        height: 2.2rem;
+        font-size: 0.875rem;
+    }
+    footer {
+        font-size: 0.812rem;
+    }
+    span {
+        margin-left: 3.5rem;
+    }
+}
+@media (min-width: 721px) {
+    body {
+        width: 100%;
+        max-width: 75rem;
+    }
+    main{
+        width: 90%;
+    }
+    h1 {
+        height: 6rem;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    h2 {
+        height: 1.8rem;
+        font-size: 1.3rem;
+    }
+    .container__hero{
+        width: 34%;
+    }
+    .hero__bg__img {
+        height: 14rem;
+    }
+    #hero__img {
+        top: -7.187rem;
+        width: 8.75rem;
+        left: -1.437rem;
+    }
+    .header-img {
+        top: -15.625rem;
+        left: -10.625rem;
+    }
+    #corazon {
+        width: 2.2rem;
+        top: -20.312rem;
+        left: -5rem;
+    }
+    h4 {
+        font-size: 1.75rem;
+        margin-top: -6.875rem;
+    }
+    p {
+        font-size: 1.062rem;
+        margin-top: 0.3125rem;
+        padding: 0.625rem;
+    }
+    button {
+        width: 8rem;
+        height: 2.2rem;
+        font-size: 1rem;
+        margin-bottom: 1.375rem;
+        margin-top: 0.5rem;
+    }
+    .hero__hquinn {
+        display: inline;
+    }
+    footer {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        width: 98%;
+    }
+}
