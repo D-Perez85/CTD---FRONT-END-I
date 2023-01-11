@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.grid-layout {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera'
+    'menu menu '
+    'contenido lateral'
+    'footer footer';
+    grid-template-rows: 20% 10% auto 10%;
+    height: 650px;
+}
+.caja {
+    align-items: center;
+    background-color: lightgray;
+    border: 2px solid #e91e63;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.c1 {
+    background-color: lightblue;
+    grid-area: cabecera;
+}
+.c2 {
+    background-color: coral;
+    grid-area: menu;
+}
+.c3 {
+    background-color: rgb(202, 147, 126);
+    grid-area: contenido;
+}
+.c4 {
+    background-color: rgb(109, 71, 235);
+    grid-area: lateral;
+}
+.c5 {
+    background-color: rgb(145, 142, 153);
+    grid-area: footer;
+}
