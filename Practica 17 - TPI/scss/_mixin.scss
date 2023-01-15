@@ -1,0 +1,48 @@
+@mixin button{
+    background-color: $bg-violet;
+    border: none;
+    border-radius: 1.25rem;
+    color: #ffff;
+    font-family: $font-family_1;
+    font-size: $font-size-1;
+    height: 2.5rem;
+    width: 7.81rem;
+    box-shadow: 3px 5px 11px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 3px 5px 11px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 3px 5px 11px 0px rgba(0,0,0,0.67);
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+@mixin container{
+    align-items: center;
+    background-color: $bg-aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30rem;
+}
+
+@mixin font__properties{
+    color: $text-white;
+    font-family:$font-family_1;
+    padding-left: 1.25rem;
+    text-align: left;
+    width: 27.5rem;
+}
+
+@mixin flex__center{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex__evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin flex__around{
+    display: flex;
+    justify-content: space-around;
+}
