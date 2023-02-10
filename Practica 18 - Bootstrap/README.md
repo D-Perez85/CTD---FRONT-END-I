@@ -2,15 +2,13 @@
 
 El desafío fue crear esta página y hacer que se parezca lo más posible al diseño propuesto en el detalle de los recursos brindados. 
 
-###  `Los aspectos que se tuvieron en cuenta son los siguientes:`
+### `Los aspectos que se tuvieron en cuenta son los siguientes:`
 
-  o Estructura correcta de HTML - Uso y correcta implementación de etiquetas semánticas
-  o Adaptabilidad a dos tipos de dispositivos (480 y 1400px)
-  o Implementación de Flexbox y buenas practicas de Sass, (mixins, variables, etc)
-  o Bootstrap 
-  o Pequeñas animaciones
- 
- 
+	o Estructura correcta de HTML - Uso y correcta implementación de etiquetas semánticas
+	o Adaptabilidad a dos tipos de dispositivos (480 y 1400px)
+	o Implementación de Flexbox y buenas practicas de Sass, (mixins, variables, etc)
+	o Bootstrap
+ 	o Pequeñas animaciones 
 
 ## Dónde encontrar todo
 
